@@ -1,0 +1,83 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Argo (4.1.2):
+    - Runes (>= 4.0.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Curry (3.0.0)
+  - Eureka (2.0.1)
+  - FBSDKCoreKit (4.21.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.21.0):
+    - FBSDKCoreKit
+  - Kingfisher (3.6.2)
+  - Prelude (3.0.0)
+  - QuizWorld-API (0.0.1):
+    - Argo
+    - Curry
+    - Prelude
+    - ReactiveCocoa (~> 5.0.3)
+    - ReactiveExtensions
+  - ReactiveCocoa (5.0.3):
+    - ReactiveSwift (~> 1.1)
+  - ReactiveExtensions (0.1.1):
+    - ReactiveExtensions/All (= 0.1.1)
+    - ReactiveSwift (~> 1.1)
+  - ReactiveExtensions/Alamofire (0.1.1):
+    - Alamofire (~> 4.4)
+    - ReactiveSwift (~> 1.1)
+  - ReactiveExtensions/All (0.1.1):
+    - ReactiveExtensions/Alamofire
+    - ReactiveExtensions/Eureka
+    - ReactiveExtensions/FBSDKCoreKit
+    - ReactiveExtensions/FBSDKLoginKit
+    - ReactiveExtensions/Kingfisher
+    - ReactiveSwift (~> 1.1)
+  - ReactiveExtensions/Eureka (0.1.1):
+    - Eureka (~> 2.0.1)
+    - ReactiveSwift (~> 1.1)
+  - ReactiveExtensions/FBSDKCoreKit (0.1.1):
+    - FBSDKCoreKit (~> 4.20)
+    - ReactiveSwift (~> 1.1)
+  - ReactiveExtensions/FBSDKLoginKit (0.1.1):
+    - FBSDKLoginKit (~> 4.20)
+    - ReactiveSwift (~> 1.1)
+  - ReactiveExtensions/Kingfisher (0.1.1):
+    - Kingfisher (~> 3.5)
+    - ReactiveSwift (~> 1.1)
+  - ReactiveSwift (1.1.1):
+    - Result (~> 3.2)
+  - Result (3.2.1)
+  - Runes (4.0.1)
+
+DEPENDENCIES:
+  - QuizWorld-API (from `/Users/hakonbogen/dev/QuizWorld-API`)
+
+EXTERNAL SOURCES:
+  QuizWorld-API:
+    :path: /Users/hakonbogen/dev/QuizWorld-API
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Argo: 5db06502fc1222d83011f574243089dab25202ff
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Curry: eb3d2c75aec678b3cc7fb2729d2ad6dd121531d1
+  Eureka: ae837bb1dfae0c07bc1bda7aeef87876eeb537c2
+  FBSDKCoreKit: 8a372ab194b5c7c26355c1920ef52dbeb44bc222
+  FBSDKLoginKit: a1a5f4b4ac445823a020fbeeaf5f03714a67ff9c
+  Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
+  Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
+  QuizWorld-API: 066f3d7af777851c63da8aa8e81784dfcc86f80d
+  ReactiveCocoa: 066a855f613fb72f68258771095805fdb10312d2
+  ReactiveExtensions: d69305f6021e76cc99704a11ac69e865c7c8800a
+  ReactiveSwift: 2489549e3231a6ff68ec99f3d320bb264f10ba0a
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
+
+PODFILE CHECKSUM: 44ae2a37f2553f2acc63f0291afa6208edad7f87
+
+COCOAPODS: 1.2.0

@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CF107FB3434112F186B930B /* Pods_QuizWorld_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464F03FF1D5550357E5078B2 /* Pods_QuizWorld_iOSTests.framework */; };
+		C1B56ECAB90D8D1267D231F3 /* Pods_QuizWorld_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD9B37E0987617FC1B04D1A /* Pods_QuizWorld_iOS.framework */; };
 		EC5917D41EA3C38800BA3951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5917D31EA3C38800BA3951 /* AppDelegate.swift */; };
-		EC5917D61EA3C38800BA3951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5917D51EA3C38800BA3951 /* ViewController.swift */; };
+		EC5917D61EA3C38800BA3951 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5917D51EA3C38800BA3951 /* QuestionViewController.swift */; };
 		EC5917D91EA3C38800BA3951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5917D71EA3C38800BA3951 /* Main.storyboard */; };
 		EC5917DB1EA3C38800BA3951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5917DA1EA3C38800BA3951 /* Assets.xcassets */; };
 		EC5917DE1EA3C38800BA3951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5917DC1EA3C38800BA3951 /* LaunchScreen.storyboard */; };
 		EC5917E91EA3C38800BA3951 /* QuizWorld_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5917E81EA3C38800BA3951 /* QuizWorld_iOSTests.swift */; };
+		EC5917F41EA3C3DB00BA3951 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5917F31EA3C3DB00BA3951 /* QuestionViewModel.swift */; };
+		EC5917F61EA3CE9300BA3951 /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5917F51EA3CE9300BA3951 /* AppEnviroment.swift */; };
+		EC5917F81EA3CEA900BA3951 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5917F71EA3CEA900BA3951 /* Enviroment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232AF0BBE6345DD6ED128768 /* Pods-QuizWorld-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorld-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorld-iOS/Pods-QuizWorld-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		464F03FF1D5550357E5078B2 /* Pods_QuizWorld_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizWorld_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B86672AFEA34E5187033202 /* Pods-QuizWorld-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorld-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorld-iOS/Pods-QuizWorld-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		CCD9B37E0987617FC1B04D1A /* Pods_QuizWorld_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizWorld_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2F3427C3673CB158B90D4F /* Pods-QuizWorld-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorld-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorld-iOSTests/Pods-QuizWorld-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF72B8EAEABFC4A64BB1A48 /* Pods-QuizWorld-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizWorld-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizWorld-iOSTests/Pods-QuizWorld-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC5917D01EA3C38800BA3951 /* QuizWorld-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuizWorld-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5917D31EA3C38800BA3951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC5917D51EA3C38800BA3951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5917D51EA3C38800BA3951 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		EC5917D81EA3C38800BA3951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC5917DA1EA3C38800BA3951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5917DD1EA3C38800BA3951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,9 @@
 		EC5917E41EA3C38800BA3951 /* QuizWorld-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuizWorld-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5917E81EA3C38800BA3951 /* QuizWorld_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWorld_iOSTests.swift; sourceTree = "<group>"; };
 		EC5917EA1EA3C38800BA3951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5917F31EA3C3DB00BA3951 /* QuestionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		EC5917F51EA3CE9300BA3951 /* AppEnviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
+		EC5917F71EA3CEA900BA3951 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B56ECAB90D8D1267D231F3 /* Pods_QuizWorld_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF107FB3434112F186B930B /* Pods_QuizWorld_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A39DF31BC8039068BCCC35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				232AF0BBE6345DD6ED128768 /* Pods-QuizWorld-iOS.debug.xcconfig */,
+				9B86672AFEA34E5187033202 /* Pods-QuizWorld-iOS.release.xcconfig */,
+				DC2F3427C3673CB158B90D4F /* Pods-QuizWorld-iOSTests.debug.xcconfig */,
+				EAF72B8EAEABFC4A64BB1A48 /* Pods-QuizWorld-iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F3BFC5F1B85EAF6B5C6355C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD9B37E0987617FC1B04D1A /* Pods_QuizWorld_iOS.framework */,
+				464F03FF1D5550357E5078B2 /* Pods_QuizWorld_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC5917C71EA3C38800BA3951 = {
 			isa = PBXGroup;
 			children = (
 				EC5917D21EA3C38800BA3951 /* QuizWorld-iOS */,
 				EC5917E71EA3C38800BA3951 /* QuizWorld-iOSTests */,
 				EC5917D11EA3C38800BA3951 /* Products */,
+				01A39DF31BC8039068BCCC35 /* Pods */,
+				2F3BFC5F1B85EAF6B5C6355C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				EC5917D31EA3C38800BA3951 /* AppDelegate.swift */,
-				EC5917D51EA3C38800BA3951 /* ViewController.swift */,
+				EC5917D51EA3C38800BA3951 /* QuestionViewController.swift */,
+				EC5917F31EA3C3DB00BA3951 /* QuestionViewModel.swift */,
+				EC5917F51EA3CE9300BA3951 /* AppEnviroment.swift */,
+				EC5917F71EA3CEA900BA3951 /* Enviroment.swift */,
 				EC5917D71EA3C38800BA3951 /* Main.storyboard */,
 				EC5917DA1EA3C38800BA3951 /* Assets.xcassets */,
 				EC5917DC1EA3C38800BA3951 /* LaunchScreen.storyboard */,
@@ -103,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC5917ED1EA3C38800BA3951 /* Build configuration list for PBXNativeTarget "QuizWorld-iOS" */;
 			buildPhases = (
+				563DE312A9169EC99CE76665 /* [CP] Check Pods Manifest.lock */,
 				EC5917CC1EA3C38800BA3951 /* Sources */,
 				EC5917CD1EA3C38800BA3951 /* Frameworks */,
 				EC5917CE1EA3C38800BA3951 /* Resources */,
+				CC632AC73DB60AB5ABE8EC82 /* [CP] Embed Pods Frameworks */,
+				AA6C0DD96EE92DCDC266075A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC5917F01EA3C38800BA3951 /* Build configuration list for PBXNativeTarget "QuizWorld-iOSTests" */;
 			buildPhases = (
+				0ECB7A3C242CCC444CF092FA /* [CP] Check Pods Manifest.lock */,
 				EC5917E01EA3C38800BA3951 /* Sources */,
 				EC5917E11EA3C38800BA3951 /* Frameworks */,
 				EC5917E21EA3C38800BA3951 /* Resources */,
+				33793522A9CB8355A92FD45D /* [CP] Embed Pods Frameworks */,
+				1854A4DFFE24BAB4D22A79E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,12 +241,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ECB7A3C242CCC444CF092FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1854A4DFFE24BAB4D22A79E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizWorld-iOSTests/Pods-QuizWorld-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33793522A9CB8355A92FD45D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizWorld-iOSTests/Pods-QuizWorld-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563DE312A9169EC99CE76665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6C0DD96EE92DCDC266075A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizWorld-iOS/Pods-QuizWorld-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC632AC73DB60AB5ABE8EC82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizWorld-iOS/Pods-QuizWorld-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC5917CC1EA3C38800BA3951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5917D61EA3C38800BA3951 /* ViewController.swift in Sources */,
+				EC5917D61EA3C38800BA3951 /* QuestionViewController.swift in Sources */,
+				EC5917F41EA3C3DB00BA3951 /* QuestionViewModel.swift in Sources */,
+				EC5917F81EA3CEA900BA3951 /* Enviroment.swift in Sources */,
+				EC5917F61EA3CE9300BA3951 /* AppEnviroment.swift in Sources */,
 				EC5917D41EA3C38800BA3951 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +482,7 @@
 		};
 		EC5917EE1EA3C38800BA3951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232AF0BBE6345DD6ED128768 /* Pods-QuizWorld-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "QuizWorld-iOS/Info.plist";
@@ -351,6 +495,7 @@
 		};
 		EC5917EF1EA3C38800BA3951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B86672AFEA34E5187033202 /* Pods-QuizWorld-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "QuizWorld-iOS/Info.plist";
@@ -363,6 +508,7 @@
 		};
 		EC5917F11EA3C38800BA3951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2F3427C3673CB158B90D4F /* Pods-QuizWorld-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +523,7 @@
 		};
 		EC5917F21EA3C38800BA3951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF72B8EAEABFC4A64BB1A48 /* Pods-QuizWorld-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,6 +555,7 @@
 				EC5917EF1EA3C38800BA3951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC5917F01EA3C38800BA3951 /* Build configuration list for PBXNativeTarget "QuizWorld-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +564,7 @@
 				EC5917F21EA3C38800BA3951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
